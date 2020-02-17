@@ -5,6 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:European_Council_Voting_Calculator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid/>
+        Title="European Council Voting Calculator" Height="600" Width="900" Icon="EU_Icon.png" SizeToContent="WidthAndHeight">
+    <Grid Background="White">
+        <Label Content="European Council Voting Calculator" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="22" FontWeight="Bold"/>
+        <Label Content="Please select a voting rule." Margin="22,69,592,333" FontFamily="Calibri" FontSize="16"/>
+        <RadioButton GroupName="Ruleselect" Content="Qualified majority" Margin="33,101,628,317" FontFamily="Calibri" FontSize="16"/>
+        <RadioButton GroupName="Ruleselect" Content="Reinforced qualified majority" Margin="33,122,556,296" FontFamily="Calibri" FontSize="16"/>
+        <RadioButton GroupName="Ruleselect" Content="Simple majority" Margin="33,143,640,275" FontFamily="Calibri" FontSize="16"/>
+        <RadioButton GroupName="Ruleselect" Content="Unanimity" Margin="33,164,658,254" FontFamily="Calibri" FontSize="16"/>
+    </Grid>
 </Window>

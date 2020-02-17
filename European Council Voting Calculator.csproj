@@ -7,4 +7,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="EU_Icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="EU_Icon.png" />
+  </ItemGroup>
+
 </Project>
