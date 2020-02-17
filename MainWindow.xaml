@@ -13,5 +13,9 @@
         <RadioButton GroupName="Ruleselect" Content="Reinforced qualified majority" Margin="33,122,556,296" FontFamily="Calibri" FontSize="16"/>
         <RadioButton GroupName="Ruleselect" Content="Simple majority" Margin="33,143,640,275" FontFamily="Calibri" FontSize="16"/>
         <RadioButton GroupName="Ruleselect" Content="Unanimity" Margin="33,164,658,254" FontFamily="Calibri" FontSize="16"/>
+        
+        <GroupBox Header="Set the votes for each country" Margin="260,69,10,167">
+            <ScrollBar HorizontalAlignment="Left" Margin="603,0,0,0"/>
+        </GroupBox>
     </Grid>
 </Window>
